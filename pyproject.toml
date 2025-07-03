@@ -1,0 +1,17 @@
+[project]
+name = "fsassistant"
+version = "0.1.0"
+description = "AI-powered assistant to clean and organize your file system"
+authors = [
+  { name = "Vitalii Shkibtan", email = "vetalguru@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+fsassist = "scripts.fsassist:main"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"

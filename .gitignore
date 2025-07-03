@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+nosetests.xml
+pytest_cache/
+.junit.xml
+
+# mypy / Pyright / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
+# MacOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Compiled UI or translation files (optional)
+*.mo
+*.pot
+
+# Dist / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local dev secrets (optional)
+.env
+.env.*
+openai_api_key.txt
+
+# Files generated at runtime
+*.sqlite3
+*.db
