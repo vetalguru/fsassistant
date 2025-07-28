@@ -1,16 +1,17 @@
 [project]
 name = "fsassistant"
 version = "0.1.0"
-description = "AI-powered assistant to clean and organize your file system"
+description = "AI-powered file system assistant"
 authors = [
   { name = "Vitalii Shkibtan", email = "vetalguru@gmail.com" }
 ]
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 dependencies = []
+requires-python = ">=3.10"
 
 [project.scripts]
-fsassist = "scripts.fsassist:main"
+fsassist = "fsassist.__main__:main"
 
 [build-system]
 requires = ["setuptools>=64", "wheel"]
