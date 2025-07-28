@@ -4,11 +4,12 @@
 
 import argparse
 
+
 class CliArgumentParser:
     def __init__(self):
         self.parser = argparse.ArgumentParser(
-            prog="fsassistant",
-            description="File System AI Assistant")
+            prog="fsassistant", description="File System AI Assistant"
+        )
         self._add_arguments()
 
     def _add_arguments(self) -> None:
@@ -16,14 +17,14 @@ class CliArgumentParser:
             "--prompt",
             type=str,
             help="File System AI Assistant prompt",
-            required=True
+            required=True,
         )
 
         self.parser.add_argument(
             "--working_directory",
             type=str,
             help="Working directory for the File System AI Assistant",
-            required=True
+            required=True,
         )
 
     def parse_args(self, args=None):
